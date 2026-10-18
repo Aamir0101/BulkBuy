@@ -27,7 +27,7 @@ interface DatabaseData {
 }
 
 function resolveDataDir(): string {
-  if (process.env.DATA_DIR && fs.existsSync(process.env.DATA_DIR)) {
+  if (process.env.DATA_DIR) {
     return process.env.DATA_DIR;
   }
   const rootData = path.resolve(process.cwd(), 'data');
