@@ -6,15 +6,23 @@ class ApiService {
   private token: string | null = null;
 
   constructor() {
-    this.token = localStorage.getItem('bulkbuy_token');
+    // Purge legacy auto-login token from localStorage so users start logged out
+    if (typeof window !== 'undefined' && window.localStorage) {
+      localStorage.removeItem('bulkbuy_token');
+      localStorage.removeItem('bulkbuy_logged_out');
+    }
+    this.token = typeof window !== 'undefined' && window.localStorage ? localStorage.getItem('bulkbuy_auth_jwt') : null;
   }
 
   public setToken(token: string | null) {
     this.token = token;
-    if (token) {
-      localStorage.setItem('bulkbuy_token', token);
-    } else {
-      localStorage.removeItem('bulkbuy_token');
+    if (typeof window !== 'undefined' && window.localStorage) {
+      if (token) {
+        localStorage.setItem('bulkbuy_auth_jwt', token);
+      } else {
+        localStorage.removeItem('bulkbuy_auth_jwt');
+        localStorage.removeItem('bulkbuy_token');
+      }
     }
   }
 

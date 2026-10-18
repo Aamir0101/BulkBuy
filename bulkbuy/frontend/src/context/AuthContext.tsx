@@ -64,7 +64,6 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const register = async (payload: { email: string; password: string; fullName: string; phone: string; role?: 'CUSTOMER' | 'SUPPLIER' }) => {
     setIsLoading(true);
     try {
-      localStorage.removeItem('bulkbuy_logged_out');
       const res = await api.register(payload);
       api.setToken(res.token);
       setUser(res.user);
@@ -89,6 +88,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     try {
       await api.logout();
     } finally {
+      api.setToken(null);
       setUser(null);
       setAddresses([]);
       setSupplierDetails(null);
