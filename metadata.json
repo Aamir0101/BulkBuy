@@ -1,0 +1,6 @@
+{
+  "name": "BulkBuy — Group Commerce Marketplace",
+  "description": "Indian group-buying commerce platform enabling collective demand aggregation for bulk discounts on cooking oils, groceries, and household staples.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

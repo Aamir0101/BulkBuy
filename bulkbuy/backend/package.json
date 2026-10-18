@@ -1,0 +1,28 @@
+{
+  "name": "bulkbuy-backend",
+  "version": "1.0.0",
+  "description": "BulkBuy REST API and group-buying transactional engine",
+  "type": "module",
+  "main": "src/server.ts",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "test": "tsx tests/campaign.test.ts && tsx tests/security.test.ts && tsx tests/auth_profile.test.ts && tsx tests/payment_order.test.ts"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.3",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^22.14.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.8.0"
+  }
+}

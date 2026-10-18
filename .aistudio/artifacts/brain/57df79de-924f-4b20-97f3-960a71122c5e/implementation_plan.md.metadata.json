@@ -1,0 +1,6 @@
+{
+  "summary": "Complete architectural blueprint and implementation plan for BulkBuy, a full-stack Indian group commerce platform. Details frontend storefront, supplier portal, admin dashboard, Express REST backend (/api/v1), persistent database schema, concurrency-safe campaign participation engine, simulated Razorpay payments, and editorial forest-green design system.",
+  "updatedAt": "2026-10-18T14:04:49.980672996Z",
+  "requestFeedback": true,
+  "userFacing": true
+}

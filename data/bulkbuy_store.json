@@ -1,0 +1,2122 @@
+{
+  "users": [
+    {
+      "id": "usr_admin_1",
+      "email": "admin@bulkbuy.in",
+      "passwordHash": "$2b$12$rjalFqcp0v2PyAy1vHqb/OrNtWLHxBTmmJKiaMa5lQEMiHiwvqpK2",
+      "fullName": "Aakash Verma (Admin)",
+      "phone": "+91 98765 43210",
+      "role": "ADMIN",
+      "createdAt": "2026-01-15T09:00:00Z"
+    },
+    {
+      "id": "usr_supplier_1",
+      "email": "supplier@amaraagro.in",
+      "passwordHash": "$2b$12$sPhgt2aPj6r/BPbTcAeT3OAgrgfJDeeGymaFBN2ounB672l9/xX4.",
+      "fullName": "Vikram Singhania",
+      "phone": "+91 98123 45678",
+      "role": "SUPPLIER",
+      "createdAt": "2026-02-01T10:00:00Z"
+    },
+    {
+      "id": "usr_customer_1",
+      "email": "priya.sharma@example.com",
+      "passwordHash": "$2b$12$AZ3fQ0UvoVhgXIOvZ72JseulkOiwIYHqYHZJcITPk4aeMfRXVeJBK",
+      "fullName": "Priya Sharma Updated 1698",
+      "phone": "+91 98765 00000",
+      "role": "CUSTOMER",
+      "createdAt": "2026-03-01T11:00:00Z"
+    },
+    {
+      "id": "usr_1792340600783_s4o8d",
+      "email": "test.cust.1792340600570@example.com",
+      "passwordHash": "$2b$12$T3NC0tV9cfROFuJAsiRtUOnv2NcUuBSNhx2dQwo.i643rjsRgm3gy",
+      "fullName": "Legit Customer",
+      "phone": "+91 91234 56780",
+      "role": "CUSTOMER",
+      "createdAt": "2026-10-18T16:23:20.783Z"
+    },
+    {
+      "id": "usr_attacker_random",
+      "email": "attacker.random@example.com",
+      "passwordHash": "$2b$12$AZ3fQ0UvoVhgXIOvZ72JseulkOiwIYHqYHZJcITPk4aeMfRXVeJBK",
+      "fullName": "Attacker User",
+      "phone": "+91 99999 11111",
+      "role": "CUSTOMER",
+      "createdAt": "2026-10-18T16:23:21.216Z"
+    },
+    {
+      "id": "usr_1792340754071_k0lql",
+      "email": "test.cust.1792340753856@example.com",
+      "passwordHash": "$2b$12$KCWmo/7rkN8a.5FsKjyJ5.FMIEa16RXFCPWLAwOdBbIwV6X3bueoe",
+      "fullName": "Legit Customer",
+      "phone": "+91 91234 56780",
+      "role": "CUSTOMER",
+      "createdAt": "2026-10-18T16:25:54.071Z"
+    },
+    {
+      "id": "usr_attacker_random",
+      "email": "attacker.random@example.com",
+      "passwordHash": "$2b$12$AZ3fQ0UvoVhgXIOvZ72JseulkOiwIYHqYHZJcITPk4aeMfRXVeJBK",
+      "fullName": "Attacker User",
+      "phone": "+91 99999 11111",
+      "role": "CUSTOMER",
+      "createdAt": "2026-10-18T16:25:54.504Z"
+    },
+    {
+      "id": "usr_1792340776490_z35yq",
+      "email": "test.cust.1792340776273@example.com",
+      "passwordHash": "$2b$12$7HcZ4q89JSmOhhOY8Sr3x.cmiUo3I360YrogOEkw8b2Rl6vvGYSU.",
+      "fullName": "Legit Customer",
+      "phone": "+91 91234 56780",
+      "role": "CUSTOMER",
+      "createdAt": "2026-10-18T16:26:16.490Z"
+    },
+    {
+      "id": "usr_attacker_random",
+      "email": "attacker.random@example.com",
+      "passwordHash": "$2b$12$AZ3fQ0UvoVhgXIOvZ72JseulkOiwIYHqYHZJcITPk4aeMfRXVeJBK",
+      "fullName": "Attacker User",
+      "phone": "+91 99999 11111",
+      "role": "CUSTOMER",
+      "createdAt": "2026-10-18T16:26:16.927Z"
+    },
+    {
+      "id": "usr_1792342138521_mkn6o",
+      "email": "test.cust.1792342138309@example.com",
+      "passwordHash": "$2b$12$rJEQFAUcKdBNuWfI1s2npuBrZkKfvSMYGfeXuhOwDnfgK6fWzODom",
+      "fullName": "Legit Customer",
+      "phone": "+91 91234 56780",
+      "role": "CUSTOMER",
+      "createdAt": "2026-10-18T16:48:58.521Z"
+    },
+    {
+      "id": "usr_attacker_random",
+      "email": "attacker.random@example.com",
+      "passwordHash": "$2b$12$AZ3fQ0UvoVhgXIOvZ72JseulkOiwIYHqYHZJcITPk4aeMfRXVeJBK",
+      "fullName": "Attacker User",
+      "phone": "+91 99999 11111",
+      "role": "CUSTOMER",
+      "createdAt": "2026-10-18T16:48:58.956Z"
+    },
+    {
+      "id": "usr_1792342186656_jc5qc",
+      "email": "test.cust.1792342186443@example.com",
+      "passwordHash": "$2b$12$R.EDFaRjqF.DuJFrW.Qx6.exo6UzXlRNyh3RviIL5QVIzd8Wfchme",
+      "fullName": "Legit Customer",
+      "phone": "+91 91234 56780",
+      "role": "CUSTOMER",
+      "createdAt": "2026-10-18T16:49:46.656Z"
+    },
+    {
+      "id": "usr_attacker_random",
+      "email": "attacker.random@example.com",
+      "passwordHash": "$2b$12$AZ3fQ0UvoVhgXIOvZ72JseulkOiwIYHqYHZJcITPk4aeMfRXVeJBK",
+      "fullName": "Attacker User",
+      "phone": "+91 99999 11111",
+      "role": "CUSTOMER",
+      "createdAt": "2026-10-18T16:49:47.087Z"
+    },
+    {
+      "id": "usr_1792342213959_2t3x4",
+      "email": "test.cust.1792342213747@example.com",
+      "passwordHash": "$2b$12$KsSZc8Y1SsTHqEa8iIPQruaV4qaMkQBlBn2tmMoip3iCtCdbknvpC",
+      "fullName": "Legit Customer",
+      "phone": "+91 91234 56780",
+      "role": "CUSTOMER",
+      "createdAt": "2026-10-18T16:50:13.959Z"
+    },
+    {
+      "id": "usr_attacker_random",
+      "email": "attacker.random@example.com",
+      "passwordHash": "$2b$12$AZ3fQ0UvoVhgXIOvZ72JseulkOiwIYHqYHZJcITPk4aeMfRXVeJBK",
+      "fullName": "Attacker User",
+      "phone": "+91 99999 11111",
+      "role": "CUSTOMER",
+      "createdAt": "2026-10-18T16:50:14.392Z"
+    },
+    {
+      "id": "usr_1792342729006_h1ipj",
+      "email": "test.cust.1792342728793@example.com",
+      "passwordHash": "$2b$12$DZPzpzNvh4BRWUYagz0fwOfXcPdnDlv9KxLXwS/x8j4qP1qagQAPq",
+      "fullName": "Legit Customer",
+      "phone": "+91 91234 56780",
+      "role": "CUSTOMER",
+      "createdAt": "2026-10-18T16:58:49.006Z"
+    },
+    {
+      "id": "usr_attacker_random",
+      "email": "attacker.random@example.com",
+      "passwordHash": "$2b$12$AZ3fQ0UvoVhgXIOvZ72JseulkOiwIYHqYHZJcITPk4aeMfRXVeJBK",
+      "fullName": "Attacker User",
+      "phone": "+91 99999 11111",
+      "role": "CUSTOMER",
+      "createdAt": "2026-10-18T16:58:49.437Z"
+    }
+  ],
+  "addresses": [
+    {
+      "id": "addr_1",
+      "userId": "usr_customer_1",
+      "recipientName": "Priya Sharma",
+      "phone": "+91 98234 56789",
+      "streetAddress": "Flat 402, Oakwood Enclave, Outer Ring Road, Bellandur",
+      "landmark": "Near Central Mall",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "postalCode": "560103",
+      "isDefault": true
+    }
+  ],
+  "suppliers": [
+    {
+      "id": "sup_1",
+      "userId": "usr_supplier_1",
+      "businessName": "Amara Agro Products Pvt Ltd",
+      "gstin": "29AABCA1234F1Z8",
+      "fssaiLicense": "11223334000125",
+      "bankAccount": "918237465012",
+      "ifscCode": "HDFC0001234",
+      "status": "VERIFIED",
+      "verifiedAt": "2026-02-05T14:30:00Z"
+    },
+    {
+      "id": "sup_2",
+      "userId": "usr_admin_1",
+      "businessName": "Shivalik Valley Millers Co-op",
+      "gstin": "07AAACS5678G2Z1",
+      "fssaiLicense": "10721025000492",
+      "bankAccount": "501002394857",
+      "ifscCode": "SBIN0004581",
+      "status": "VERIFIED",
+      "verifiedAt": "2026-02-10T12:00:00Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod_1",
+      "supplierId": "sup_1",
+      "category": "Cooking Oils & Ghee",
+      "title": "Amara Pure Kachi Ghani Mustard Oil (Cold-Pressed)",
+      "slug": "amara-pure-kachi-ghani-mustard-oil-5l",
+      "description": "Traditional slow wood-pressed (kolhu) single-origin mustard oil. High pungency, natural antioxidants, zero chemical solvents or adulteration. Packed in airtight tin container.",
+      "unitSize": "5 Litres Tin",
+      "mrpInr": 975,
+      "imageUrl": "/src/assets/images/mustard_oil_5l_1792332417134.jpg",
+      "isApproved": true,
+      "shelfLifeDays": 270,
+      "originState": "Rajasthan"
+    },
+    {
+      "id": "prod_2",
+      "supplierId": "sup_1",
+      "category": "Cooking Oils & Ghee",
+      "title": "Shivalik Harvest Cold-Pressed Virgin Groundnut Oil",
+      "slug": "shivalik-harvest-cold-pressed-groundnut-oil-5l",
+      "description": "First cold-press unrefined peanut oil made from Saurashtra groundnuts. Rich in mono-unsaturated fatty acids with natural nutty aroma and high smoke point.",
+      "unitSize": "5 Litres Jar",
+      "mrpInr": 1150,
+      "imageUrl": "/src/assets/images/groundnut_oil_5l_1792332419392.jpg",
+      "isApproved": true,
+      "shelfLifeDays": 180,
+      "originState": "Gujarat"
+    },
+    {
+      "id": "prod_3",
+      "supplierId": "sup_2",
+      "category": "Flours & Grains",
+      "title": "Aashirvad Sharbati 100% Whole Wheat Chakki Atta",
+      "slug": "aashirvad-sharbati-whole-wheat-chakki-atta-10kg",
+      "description": "Traditional stone-ground atta crafted from golden Sehore Sharbati wheat grains from Madhya Pradesh. High dietary fiber, naturally sweet flavor, stays soft for 12 hours.",
+      "unitSize": "10 Kilograms Bag",
+      "mrpInr": 680,
+      "imageUrl": "/src/assets/images/sharbati_atta_10kg_1792332419142.jpg",
+      "isApproved": true,
+      "shelfLifeDays": 90,
+      "originState": "Madhya Pradesh"
+    },
+    {
+      "id": "prod_4",
+      "supplierId": "sup_2",
+      "category": "Flours & Grains",
+      "title": "Maharaja's Reserve Aged Royal Indian Basmati Rice",
+      "slug": "maharajas-reserve-aged-royal-basmati-rice-10kg",
+      "description": "Naturally aged for 24 months in climate-controlled granaries. Extra-long slender grains (8.4mm average uncooked), exquisite floral aroma, non-sticky fluffiness.",
+      "unitSize": "10 Kilograms Bag",
+      "mrpInr": 1450,
+      "imageUrl": "/src/assets/images/basmati_rice_10kg_1792332418496.jpg",
+      "isApproved": true,
+      "shelfLifeDays": 730,
+      "originState": "Punjab & Haryana"
+    }
+  ],
+  "campaigns": [
+    {
+      "id": "cmp_1",
+      "productId": "prod_1",
+      "supplierId": "sup_1",
+      "title": "Amara Kachi Ghani Mustard Oil 5L Society Collective Buy",
+      "minTargetQty": 100,
+      "maxTargetQty": 300,
+      "committedQty": 90,
+      "status": "ACTIVE",
+      "startsAt": "2026-10-10T00:00:00Z",
+      "endsAt": "2026-10-25T23:59:59Z",
+      "deliveryWindow": "3-4 business days post campaign close",
+      "region": "Bengaluru & NCR"
+    },
+    {
+      "id": "cmp_2",
+      "productId": "prod_2",
+      "supplierId": "sup_1",
+      "title": "Shivalik Cold-Pressed Groundnut Oil 5L Harvest Direct",
+      "minTargetQty": 80,
+      "maxTargetQty": 250,
+      "committedQty": 88,
+      "status": "TARGET_REACHED",
+      "startsAt": "2026-10-05T00:00:00Z",
+      "endsAt": "2026-10-22T23:59:59Z",
+      "deliveryWindow": "Dispatching upon admin confirmation",
+      "region": "Pan-India Metro Hubs"
+    },
+    {
+      "id": "cmp_3",
+      "productId": "prod_3",
+      "supplierId": "sup_2",
+      "title": "MP Sharbati Chakki Atta 10kg Community Grain Pool",
+      "minTargetQty": 150,
+      "maxTargetQty": 500,
+      "committedQty": 132,
+      "status": "ACTIVE",
+      "startsAt": "2026-10-12T00:00:00Z",
+      "endsAt": "2026-10-26T23:59:59Z",
+      "deliveryWindow": "Direct doorstep delivery via regional hub",
+      "region": "Karnataka & Maharashtra"
+    },
+    {
+      "id": "cmp_4",
+      "productId": "prod_4",
+      "supplierId": "sup_2",
+      "title": "Maharaja Reserve 2-Yr Aged Basmati Rice 10kg Festive Bulk",
+      "minTargetQty": 100,
+      "maxTargetQty": 400,
+      "committedQty": 100,
+      "status": "CONFIRMED",
+      "startsAt": "2026-10-01T00:00:00Z",
+      "endsAt": "2026-10-18T12:00:00Z",
+      "deliveryWindow": "Supplier packing & palletizing",
+      "region": "National Tier 1 & 2"
+    },
+    {
+      "id": "cmp_1792340601215_5k27",
+      "productId": "prod_1",
+      "supplierId": "sup_1",
+      "title": "Legitimate Supplier 1 Campaign",
+      "minTargetQty": 50,
+      "maxTargetQty": 150,
+      "committedQty": 0,
+      "status": "DRAFT",
+      "startsAt": "2026-10-18T16:23:21.215Z",
+      "endsAt": "2026-12-31T23:59:59.000Z",
+      "deliveryWindow": "3-5 business days",
+      "region": "Bengaluru"
+    },
+    {
+      "id": "cmp_1792340754504_mma2",
+      "productId": "prod_1",
+      "supplierId": "sup_1",
+      "title": "Legitimate Supplier 1 Campaign",
+      "minTargetQty": 50,
+      "maxTargetQty": 150,
+      "committedQty": 0,
+      "status": "DRAFT",
+      "startsAt": "2026-10-18T16:25:54.504Z",
+      "endsAt": "2026-12-31T23:59:59.000Z",
+      "deliveryWindow": "3-5 business days",
+      "region": "Bengaluru"
+    },
+    {
+      "id": "cmp_1792340776927_851a",
+      "productId": "prod_1",
+      "supplierId": "sup_1",
+      "title": "Legitimate Supplier 1 Campaign",
+      "minTargetQty": 50,
+      "maxTargetQty": 150,
+      "committedQty": 0,
+      "status": "DRAFT",
+      "startsAt": "2026-10-18T16:26:16.927Z",
+      "endsAt": "2026-12-31T23:59:59.000Z",
+      "deliveryWindow": "3-5 business days",
+      "region": "Bengaluru"
+    },
+    {
+      "id": "cmp_1792342138955_3cn6",
+      "productId": "prod_1",
+      "supplierId": "sup_1",
+      "title": "Legitimate Supplier 1 Campaign",
+      "minTargetQty": 50,
+      "maxTargetQty": 150,
+      "committedQty": 0,
+      "status": "DRAFT",
+      "startsAt": "2026-10-18T16:48:58.955Z",
+      "endsAt": "2026-12-31T23:59:59.000Z",
+      "deliveryWindow": "3-5 business days",
+      "region": "Bengaluru"
+    },
+    {
+      "id": "cmp_1792342187086_m5bp",
+      "productId": "prod_1",
+      "supplierId": "sup_1",
+      "title": "Legitimate Supplier 1 Campaign",
+      "minTargetQty": 50,
+      "maxTargetQty": 150,
+      "committedQty": 0,
+      "status": "DRAFT",
+      "startsAt": "2026-10-18T16:49:47.086Z",
+      "endsAt": "2026-12-31T23:59:59.000Z",
+      "deliveryWindow": "3-5 business days",
+      "region": "Bengaluru"
+    },
+    {
+      "id": "cmp_1792342214391_doyh",
+      "productId": "prod_1",
+      "supplierId": "sup_1",
+      "title": "Legitimate Supplier 1 Campaign",
+      "minTargetQty": 50,
+      "maxTargetQty": 150,
+      "committedQty": 0,
+      "status": "DRAFT",
+      "startsAt": "2026-10-18T16:50:14.391Z",
+      "endsAt": "2026-12-31T23:59:59.000Z",
+      "deliveryWindow": "3-5 business days",
+      "region": "Bengaluru"
+    },
+    {
+      "id": "cmp_1792342729436_2l26",
+      "productId": "prod_1",
+      "supplierId": "sup_1",
+      "title": "Legitimate Supplier 1 Campaign",
+      "minTargetQty": 50,
+      "maxTargetQty": 150,
+      "committedQty": 0,
+      "status": "DRAFT",
+      "startsAt": "2026-10-18T16:58:49.436Z",
+      "endsAt": "2026-12-31T23:59:59.000Z",
+      "deliveryWindow": "3-5 business days",
+      "region": "Bengaluru"
+    }
+  ],
+  "priceTiers": [
+    {
+      "id": "tier_1_1",
+      "campaignId": "cmp_1",
+      "minQuantity": 1,
+      "priceInr": 890
+    },
+    {
+      "id": "tier_1_2",
+      "campaignId": "cmp_1",
+      "minQuantity": 50,
+      "priceInr": 820
+    },
+    {
+      "id": "tier_1_3",
+      "campaignId": "cmp_1",
+      "minQuantity": 100,
+      "priceInr": 749
+    },
+    {
+      "id": "tier_1_4",
+      "campaignId": "cmp_1",
+      "minQuantity": 200,
+      "priceInr": 699
+    },
+    {
+      "id": "tier_2_1",
+      "campaignId": "cmp_2",
+      "minQuantity": 1,
+      "priceInr": 1050
+    },
+    {
+      "id": "tier_2_2",
+      "campaignId": "cmp_2",
+      "minQuantity": 40,
+      "priceInr": 960
+    },
+    {
+      "id": "tier_2_3",
+      "campaignId": "cmp_2",
+      "minQuantity": 80,
+      "priceInr": 885
+    },
+    {
+      "id": "tier_2_4",
+      "campaignId": "cmp_2",
+      "minQuantity": 150,
+      "priceInr": 825
+    },
+    {
+      "id": "tier_3_1",
+      "campaignId": "cmp_3",
+      "minQuantity": 1,
+      "priceInr": 620
+    },
+    {
+      "id": "tier_3_2",
+      "campaignId": "cmp_3",
+      "minQuantity": 50,
+      "priceInr": 570
+    },
+    {
+      "id": "tier_3_3",
+      "campaignId": "cmp_3",
+      "minQuantity": 100,
+      "priceInr": 520
+    },
+    {
+      "id": "tier_3_4",
+      "campaignId": "cmp_3",
+      "minQuantity": 150,
+      "priceInr": 475
+    },
+    {
+      "id": "tier_4_1",
+      "campaignId": "cmp_4",
+      "minQuantity": 1,
+      "priceInr": 1320
+    },
+    {
+      "id": "tier_4_2",
+      "campaignId": "cmp_4",
+      "minQuantity": 50,
+      "priceInr": 1210
+    },
+    {
+      "id": "tier_4_3",
+      "campaignId": "cmp_4",
+      "minQuantity": 100,
+      "priceInr": 1099
+    },
+    {
+      "id": "tier_cmp_1792340601215_5k27_1",
+      "campaignId": "cmp_1792340601215_5k27",
+      "minQuantity": 1,
+      "priceInr": 450
+    },
+    {
+      "id": "tier_cmp_1792340754504_mma2_1",
+      "campaignId": "cmp_1792340754504_mma2",
+      "minQuantity": 1,
+      "priceInr": 450
+    },
+    {
+      "id": "tier_cmp_1792340776927_851a_1",
+      "campaignId": "cmp_1792340776927_851a",
+      "minQuantity": 1,
+      "priceInr": 450
+    },
+    {
+      "id": "tier_cmp_1792342138955_3cn6_1",
+      "campaignId": "cmp_1792342138955_3cn6",
+      "minQuantity": 1,
+      "priceInr": 450
+    },
+    {
+      "id": "tier_cmp_1792342187086_m5bp_1",
+      "campaignId": "cmp_1792342187086_m5bp",
+      "minQuantity": 1,
+      "priceInr": 450
+    },
+    {
+      "id": "tier_cmp_1792342214391_doyh_1",
+      "campaignId": "cmp_1792342214391_doyh",
+      "minQuantity": 1,
+      "priceInr": 450
+    },
+    {
+      "id": "tier_cmp_1792342729436_2l26_1",
+      "campaignId": "cmp_1792342729436_2l26",
+      "minQuantity": 1,
+      "priceInr": 450
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord_1",
+      "orderNumber": "BB-2026-88102",
+      "userId": "usr_customer_1",
+      "campaignId": "cmp_1",
+      "quantity": 2,
+      "unitPrice": 749,
+      "totalAmount": 1498,
+      "status": "CONFIRMED",
+      "shippingAddress": {
+        "id": "addr_1",
+        "userId": "usr_customer_1",
+        "recipientName": "Priya Sharma",
+        "phone": "+91 98234 56789",
+        "streetAddress": "Flat 402, Oakwood Enclave, Outer Ring Road, Bellandur",
+        "landmark": "Near Central Mall",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "postalCode": "560103",
+        "isDefault": true
+      },
+      "createdAt": "2026-10-14T14:20:00Z"
+    },
+    {
+      "id": "ord_2",
+      "orderNumber": "BB-2026-88103",
+      "userId": "usr_customer_1",
+      "campaignId": "cmp_2",
+      "quantity": 1,
+      "unitPrice": 885,
+      "totalAmount": 885,
+      "status": "CONFIRMED",
+      "shippingAddress": {
+        "id": "addr_1",
+        "userId": "usr_customer_1",
+        "recipientName": "Priya Sharma",
+        "phone": "+91 98234 56789",
+        "streetAddress": "Flat 402, Oakwood Enclave, Outer Ring Road, Bellandur",
+        "landmark": "Near Central Mall",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "postalCode": "560103",
+        "isDefault": true
+      },
+      "createdAt": "2026-10-15T11:45:00Z"
+    },
+    {
+      "id": "ord_1792342141407_fcwxh",
+      "orderNumber": "BB-2026-887101",
+      "userId": "usr_customer_1",
+      "campaignId": "cmp_1",
+      "quantity": 2,
+      "unitPrice": 820,
+      "totalAmount": 1640,
+      "status": "PENDING_PAYMENT",
+      "shippingAddress": {
+        "id": "addr_1",
+        "userId": "usr_customer_1",
+        "recipientName": "Priya Sharma",
+        "phone": "+91 98234 56789",
+        "streetAddress": "Flat 402, Oakwood Enclave, Outer Ring Road, Bellandur",
+        "landmark": "Near Central Mall",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "postalCode": "560103",
+        "isDefault": true
+      },
+      "reservationId": "res_1792342141400_pxjr8",
+      "gatewayOrderId": "order_bf6e1e8c8be1f70b",
+      "createdAt": "2026-10-18T16:49:01.407Z",
+      "expiresAt": "2026-10-18T17:04:01.407Z"
+    },
+    {
+      "id": "ord_1792342189665_9vgqd",
+      "orderNumber": "BB-2026-831739",
+      "userId": "usr_customer_1",
+      "campaignId": "cmp_1",
+      "quantity": 2,
+      "unitPrice": 820,
+      "totalAmount": 1640,
+      "status": "CONFIRMED",
+      "shippingAddress": {
+        "id": "addr_1",
+        "userId": "usr_customer_1",
+        "recipientName": "Priya Sharma",
+        "phone": "+91 98234 56789",
+        "streetAddress": "Flat 402, Oakwood Enclave, Outer Ring Road, Bellandur",
+        "landmark": "Near Central Mall",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "postalCode": "560103",
+        "isDefault": true
+      },
+      "reservationId": "res_1792342189660_1j8kg",
+      "gatewayOrderId": "order_68acafdb5555d043",
+      "createdAt": "2026-10-18T16:49:49.665Z",
+      "expiresAt": "2026-10-18T17:04:49.665Z",
+      "campaign": {
+        "id": "cmp_1",
+        "productId": "prod_1",
+        "supplierId": "sup_1",
+        "title": "Amara Kachi Ghani Mustard Oil 5L Society Collective Buy",
+        "minTargetQty": 100,
+        "maxTargetQty": 300,
+        "committedQty": 84,
+        "status": "ACTIVE",
+        "startsAt": "2026-10-10T00:00:00Z",
+        "endsAt": "2026-10-25T23:59:59Z",
+        "deliveryWindow": "3-4 business days post campaign close",
+        "region": "Bengaluru & NCR",
+        "product": {
+          "id": "prod_1",
+          "supplierId": "sup_1",
+          "category": "Cooking Oils & Ghee",
+          "title": "Amara Pure Kachi Ghani Mustard Oil (Cold-Pressed)",
+          "slug": "amara-pure-kachi-ghani-mustard-oil-5l",
+          "description": "Traditional slow wood-pressed (kolhu) single-origin mustard oil. High pungency, natural antioxidants, zero chemical solvents or adulteration. Packed in airtight tin container.",
+          "unitSize": "5 Litres Tin",
+          "mrpInr": 975,
+          "imageUrl": "/src/assets/images/mustard_oil_5l_1792332417134.jpg",
+          "isApproved": true,
+          "shelfLifeDays": 270,
+          "originState": "Rajasthan"
+        },
+        "supplier": {
+          "id": "sup_1",
+          "userId": "usr_supplier_1",
+          "businessName": "Amara Agro Products Pvt Ltd",
+          "gstin": "29AABCA1234F1Z8",
+          "fssaiLicense": "11223334000125",
+          "bankAccount": "918237465012",
+          "ifscCode": "HDFC0001234",
+          "status": "VERIFIED",
+          "verifiedAt": "2026-02-05T14:30:00Z"
+        },
+        "tiers": [
+          {
+            "id": "tier_1_1",
+            "campaignId": "cmp_1",
+            "minQuantity": 1,
+            "priceInr": 890
+          },
+          {
+            "id": "tier_1_2",
+            "campaignId": "cmp_1",
+            "minQuantity": 50,
+            "priceInr": 820
+          },
+          {
+            "id": "tier_1_3",
+            "campaignId": "cmp_1",
+            "minQuantity": 100,
+            "priceInr": 749
+          },
+          {
+            "id": "tier_1_4",
+            "campaignId": "cmp_1",
+            "minQuantity": 200,
+            "priceInr": 699
+          }
+        ]
+      }
+    },
+    {
+      "id": "ord_1792342189675_qol3e",
+      "orderNumber": "BB-2026-470214",
+      "userId": "usr_customer_1",
+      "campaignId": "cmp_1",
+      "quantity": 1,
+      "unitPrice": 820,
+      "totalAmount": 820,
+      "status": "PENDING_PAYMENT",
+      "shippingAddress": {
+        "id": "addr_1",
+        "userId": "usr_customer_1",
+        "recipientName": "Priya Sharma",
+        "phone": "+91 98234 56789",
+        "streetAddress": "Flat 402, Oakwood Enclave, Outer Ring Road, Bellandur",
+        "landmark": "Near Central Mall",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "postalCode": "560103",
+        "isDefault": true
+      },
+      "reservationId": "res_1792342189675_qofgh",
+      "gatewayOrderId": "order_061a9abadd40571a",
+      "createdAt": "2026-10-18T16:49:49.675Z",
+      "expiresAt": "2026-10-18T17:04:49.675Z"
+    },
+    {
+      "id": "ord_1792342216835_pxd1g",
+      "orderNumber": "BB-2026-944539",
+      "userId": "usr_customer_1",
+      "campaignId": "cmp_1",
+      "quantity": 2,
+      "unitPrice": 820,
+      "totalAmount": 1640,
+      "status": "CONFIRMED",
+      "shippingAddress": {
+        "id": "addr_1",
+        "userId": "usr_customer_1",
+        "recipientName": "Priya Sharma",
+        "phone": "+91 98234 56789",
+        "streetAddress": "Flat 402, Oakwood Enclave, Outer Ring Road, Bellandur",
+        "landmark": "Near Central Mall",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "postalCode": "560103",
+        "isDefault": true
+      },
+      "reservationId": "res_1792342216830_73ren",
+      "gatewayOrderId": "order_c6bcaaf95914fa5f",
+      "createdAt": "2026-10-18T16:50:16.836Z",
+      "expiresAt": "2026-10-18T17:05:16.836Z",
+      "campaign": {
+        "id": "cmp_1",
+        "productId": "prod_1",
+        "supplierId": "sup_1",
+        "title": "Amara Kachi Ghani Mustard Oil 5L Society Collective Buy",
+        "minTargetQty": 100,
+        "maxTargetQty": 300,
+        "committedQty": 86,
+        "status": "ACTIVE",
+        "startsAt": "2026-10-10T00:00:00Z",
+        "endsAt": "2026-10-25T23:59:59Z",
+        "deliveryWindow": "3-4 business days post campaign close",
+        "region": "Bengaluru & NCR",
+        "product": {
+          "id": "prod_1",
+          "supplierId": "sup_1",
+          "category": "Cooking Oils & Ghee",
+          "title": "Amara Pure Kachi Ghani Mustard Oil (Cold-Pressed)",
+          "slug": "amara-pure-kachi-ghani-mustard-oil-5l",
+          "description": "Traditional slow wood-pressed (kolhu) single-origin mustard oil. High pungency, natural antioxidants, zero chemical solvents or adulteration. Packed in airtight tin container.",
+          "unitSize": "5 Litres Tin",
+          "mrpInr": 975,
+          "imageUrl": "/src/assets/images/mustard_oil_5l_1792332417134.jpg",
+          "isApproved": true,
+          "shelfLifeDays": 270,
+          "originState": "Rajasthan"
+        },
+        "supplier": {
+          "id": "sup_1",
+          "userId": "usr_supplier_1",
+          "businessName": "Amara Agro Products Pvt Ltd",
+          "gstin": "29AABCA1234F1Z8",
+          "fssaiLicense": "11223334000125",
+          "bankAccount": "918237465012",
+          "ifscCode": "HDFC0001234",
+          "status": "VERIFIED",
+          "verifiedAt": "2026-02-05T14:30:00Z"
+        },
+        "tiers": [
+          {
+            "id": "tier_1_1",
+            "campaignId": "cmp_1",
+            "minQuantity": 1,
+            "priceInr": 890
+          },
+          {
+            "id": "tier_1_2",
+            "campaignId": "cmp_1",
+            "minQuantity": 50,
+            "priceInr": 820
+          },
+          {
+            "id": "tier_1_3",
+            "campaignId": "cmp_1",
+            "minQuantity": 100,
+            "priceInr": 749
+          },
+          {
+            "id": "tier_1_4",
+            "campaignId": "cmp_1",
+            "minQuantity": 200,
+            "priceInr": 699
+          }
+        ]
+      }
+    },
+    {
+      "id": "ord_1792342216844_v5ni3",
+      "orderNumber": "BB-2026-312805",
+      "userId": "usr_customer_1",
+      "campaignId": "cmp_1",
+      "quantity": 1,
+      "unitPrice": 820,
+      "totalAmount": 820,
+      "status": "PENDING_PAYMENT",
+      "shippingAddress": {
+        "id": "addr_1",
+        "userId": "usr_customer_1",
+        "recipientName": "Priya Sharma",
+        "phone": "+91 98234 56789",
+        "streetAddress": "Flat 402, Oakwood Enclave, Outer Ring Road, Bellandur",
+        "landmark": "Near Central Mall",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "postalCode": "560103",
+        "isDefault": true
+      },
+      "reservationId": "res_1792342216844_wntpn",
+      "gatewayOrderId": "order_c537528d71011efb",
+      "createdAt": "2026-10-18T16:50:16.844Z",
+      "expiresAt": "2026-10-18T17:05:16.844Z"
+    },
+    {
+      "id": "ord_1792342731867_ixr4t",
+      "orderNumber": "BB-2026-899693",
+      "userId": "usr_customer_1",
+      "campaignId": "cmp_1",
+      "quantity": 2,
+      "unitPrice": 820,
+      "totalAmount": 1640,
+      "status": "CONFIRMED",
+      "shippingAddress": {
+        "id": "addr_1",
+        "userId": "usr_customer_1",
+        "recipientName": "Priya Sharma",
+        "phone": "+91 98234 56789",
+        "streetAddress": "Flat 402, Oakwood Enclave, Outer Ring Road, Bellandur",
+        "landmark": "Near Central Mall",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "postalCode": "560103",
+        "isDefault": true
+      },
+      "reservationId": "res_1792342731861_c9ni1",
+      "gatewayOrderId": "order_d62a9b03f3209c87",
+      "createdAt": "2026-10-18T16:58:51.867Z",
+      "expiresAt": "2026-10-18T17:13:51.867Z",
+      "campaign": {
+        "id": "cmp_1",
+        "productId": "prod_1",
+        "supplierId": "sup_1",
+        "title": "Amara Kachi Ghani Mustard Oil 5L Society Collective Buy",
+        "minTargetQty": 100,
+        "maxTargetQty": 300,
+        "committedQty": 88,
+        "status": "ACTIVE",
+        "startsAt": "2026-10-10T00:00:00Z",
+        "endsAt": "2026-10-25T23:59:59Z",
+        "deliveryWindow": "3-4 business days post campaign close",
+        "region": "Bengaluru & NCR",
+        "product": {
+          "id": "prod_1",
+          "supplierId": "sup_1",
+          "category": "Cooking Oils & Ghee",
+          "title": "Amara Pure Kachi Ghani Mustard Oil (Cold-Pressed)",
+          "slug": "amara-pure-kachi-ghani-mustard-oil-5l",
+          "description": "Traditional slow wood-pressed (kolhu) single-origin mustard oil. High pungency, natural antioxidants, zero chemical solvents or adulteration. Packed in airtight tin container.",
+          "unitSize": "5 Litres Tin",
+          "mrpInr": 975,
+          "imageUrl": "/src/assets/images/mustard_oil_5l_1792332417134.jpg",
+          "isApproved": true,
+          "shelfLifeDays": 270,
+          "originState": "Rajasthan"
+        },
+        "supplier": {
+          "id": "sup_1",
+          "userId": "usr_supplier_1",
+          "businessName": "Amara Agro Products Pvt Ltd",
+          "gstin": "29AABCA1234F1Z8",
+          "fssaiLicense": "11223334000125",
+          "bankAccount": "918237465012",
+          "ifscCode": "HDFC0001234",
+          "status": "VERIFIED",
+          "verifiedAt": "2026-02-05T14:30:00Z"
+        },
+        "tiers": [
+          {
+            "id": "tier_1_1",
+            "campaignId": "cmp_1",
+            "minQuantity": 1,
+            "priceInr": 890
+          },
+          {
+            "id": "tier_1_2",
+            "campaignId": "cmp_1",
+            "minQuantity": 50,
+            "priceInr": 820
+          },
+          {
+            "id": "tier_1_3",
+            "campaignId": "cmp_1",
+            "minQuantity": 100,
+            "priceInr": 749
+          },
+          {
+            "id": "tier_1_4",
+            "campaignId": "cmp_1",
+            "minQuantity": 200,
+            "priceInr": 699
+          }
+        ]
+      }
+    },
+    {
+      "id": "ord_1792342731875_f4nxo",
+      "orderNumber": "BB-2026-368366",
+      "userId": "usr_customer_1",
+      "campaignId": "cmp_1",
+      "quantity": 1,
+      "unitPrice": 820,
+      "totalAmount": 820,
+      "status": "PENDING_PAYMENT",
+      "shippingAddress": {
+        "id": "addr_1",
+        "userId": "usr_customer_1",
+        "recipientName": "Priya Sharma",
+        "phone": "+91 98234 56789",
+        "streetAddress": "Flat 402, Oakwood Enclave, Outer Ring Road, Bellandur",
+        "landmark": "Near Central Mall",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "postalCode": "560103",
+        "isDefault": true
+      },
+      "reservationId": "res_1792342731875_8f81b",
+      "gatewayOrderId": "order_f232d4c66653e0d0",
+      "createdAt": "2026-10-18T16:58:51.875Z",
+      "expiresAt": "2026-10-18T17:13:51.875Z"
+    }
+  ],
+  "payments": [
+    {
+      "id": "pay_1",
+      "orderId": "ord_1",
+      "gateway": "RAZORPAY",
+      "gatewayOrderId": "order_Kj9aL78Mna12",
+      "gatewayPaymentId": "pay_Kj9bZ829AkqL",
+      "gatewaySignature": "sig_mock_verified_hmac_1",
+      "amountInr": 1498,
+      "status": "SUCCESS",
+      "createdAt": "2026-10-14T14:21:00Z"
+    },
+    {
+      "id": "pay_2",
+      "orderId": "ord_2",
+      "gateway": "RAZORPAY",
+      "gatewayOrderId": "order_Kj9aL78Mna99",
+      "gatewayPaymentId": "pay_Kj9bZ829AkqM",
+      "gatewaySignature": "sig_mock_verified_hmac_2",
+      "amountInr": 885,
+      "status": "SUCCESS",
+      "createdAt": "2026-10-15T11:46:00Z"
+    },
+    {
+      "id": "pay_1792342189672_iicz",
+      "orderId": "ord_1792342189665_9vgqd",
+      "gateway": "RAZORPAY_SANDBOX",
+      "gatewayOrderId": "order_68acafdb5555d043",
+      "gatewayPaymentId": "pay_valid_1792342189669",
+      "gatewaySignature": "a5ec9a70783f55f8ef3559406f6bb17c2870029f0c8688e20297166c9efcda6a",
+      "amountInr": 1640,
+      "status": "SUCCESS",
+      "createdAt": "2026-10-18T16:49:49.672Z"
+    },
+    {
+      "id": "pay_1792342216842_besx",
+      "orderId": "ord_1792342216835_pxd1g",
+      "gateway": "RAZORPAY_SANDBOX",
+      "gatewayOrderId": "order_c6bcaaf95914fa5f",
+      "gatewayPaymentId": "pay_valid_1792342216840",
+      "gatewaySignature": "1b938853120db6abf9c827f871eb559352e9605f583f2f519798413987f96921",
+      "amountInr": 1640,
+      "status": "SUCCESS",
+      "createdAt": "2026-10-18T16:50:16.842Z"
+    },
+    {
+      "id": "pay_1792342731872_mbyi",
+      "orderId": "ord_1792342731867_ixr4t",
+      "gateway": "RAZORPAY_SANDBOX",
+      "gatewayOrderId": "order_d62a9b03f3209c87",
+      "gatewayPaymentId": "pay_valid_1792342731871",
+      "gatewaySignature": "0435b55155697c280ec227b09643dcc4d9d742a2928ecc3e9482efd3a7fa0716",
+      "amountInr": 1640,
+      "status": "SUCCESS",
+      "createdAt": "2026-10-18T16:58:51.872Z"
+    }
+  ],
+  "reservations": [
+    {
+      "id": "res_1792342141400_pxjr8",
+      "campaignId": "cmp_1",
+      "userId": "usr_customer_1",
+      "quantity": 2,
+      "expiresAt": "2026-10-18T17:04:01.400Z",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "res_1792342189660_1j8kg",
+      "campaignId": "cmp_1",
+      "userId": "usr_customer_1",
+      "quantity": 2,
+      "expiresAt": "2026-10-18T17:04:49.660Z",
+      "status": "COMMITTED"
+    },
+    {
+      "id": "res_1792342189675_qofgh",
+      "campaignId": "cmp_1",
+      "userId": "usr_customer_1",
+      "quantity": 1,
+      "expiresAt": "2026-10-18T17:04:49.675Z",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "res_1792342216830_73ren",
+      "campaignId": "cmp_1",
+      "userId": "usr_customer_1",
+      "quantity": 2,
+      "expiresAt": "2026-10-18T17:05:16.830Z",
+      "status": "COMMITTED"
+    },
+    {
+      "id": "res_1792342216844_wntpn",
+      "campaignId": "cmp_1",
+      "userId": "usr_customer_1",
+      "quantity": 1,
+      "expiresAt": "2026-10-18T17:05:16.844Z",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "res_1792342731861_c9ni1",
+      "campaignId": "cmp_1",
+      "userId": "usr_customer_1",
+      "quantity": 2,
+      "expiresAt": "2026-10-18T17:13:51.861Z",
+      "status": "COMMITTED"
+    },
+    {
+      "id": "res_1792342731875_8f81b",
+      "campaignId": "cmp_1",
+      "userId": "usr_customer_1",
+      "quantity": 1,
+      "expiresAt": "2026-10-18T17:13:51.875Z",
+      "status": "ACTIVE"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "aud_1792344048876",
+      "actorUserId": "usr_supplier_1",
+      "action": "USER_LOGGED_OUT",
+      "entityType": "AUTH",
+      "entityId": "usr_supplier_1",
+      "timestamp": "2026-10-18T17:20:48.876Z"
+    },
+    {
+      "id": "aud_1792344047142",
+      "actorUserId": "usr_supplier_1",
+      "action": "USER_LOGGED_IN",
+      "entityType": "AUTH",
+      "entityId": "usr_supplier_1",
+      "timestamp": "2026-10-18T17:20:47.142Z"
+    },
+    {
+      "id": "aud_1792344041920",
+      "actorUserId": "usr_admin_1",
+      "action": "USER_LOGGED_IN",
+      "entityType": "AUTH",
+      "entityId": "usr_admin_1",
+      "timestamp": "2026-10-18T17:20:41.920Z"
+    },
+    {
+      "id": "aud_1792344038170",
+      "actorUserId": "usr_customer_1",
+      "action": "USER_LOGGED_IN",
+      "entityType": "AUTH",
+      "entityId": "usr_customer_1",
+      "timestamp": "2026-10-18T17:20:38.170Z"
+    },
+    {
+      "id": "aud_1792343311188",
+      "actorUserId": "usr_supplier_1",
+      "action": "USER_LOGGED_IN",
+      "entityType": "AUTH",
+      "entityId": "usr_supplier_1",
+      "timestamp": "2026-10-18T17:08:31.188Z"
+    },
+    {
+      "id": "aud_1792343307206",
+      "actorUserId": "usr_customer_1",
+      "action": "USER_LOGGED_IN",
+      "entityType": "AUTH",
+      "entityId": "usr_customer_1",
+      "timestamp": "2026-10-18T17:08:27.206Z"
+    },
+    {
+      "id": "aud_1792342731873",
+      "actorUserId": "usr_customer_1",
+      "action": "ORDER_CONFIRMED",
+      "entityType": "ORDER",
+      "entityId": "ord_1792342731867_ixr4t",
+      "metadata": {
+        "campaignId": "cmp_1",
+        "quantity": 2,
+        "totalAmount": 1640,
+        "paymentId": "pay_1792342731872_mbyi"
+      },
+      "timestamp": "2026-10-18T16:58:51.873Z"
+    },
+    {
+      "id": "aud_1792342731541",
+      "actorUserId": "usr_customer_1",
+      "action": "USER_LOGGED_OUT",
+      "entityType": "AUTH",
+      "entityId": "usr_customer_1",
+      "timestamp": "2026-10-18T16:58:51.541Z"
+    },
+    {
+      "id": "aud_1792342731539",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:58:51.539Z"
+    },
+    {
+      "id": "aud_1792342731328",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:58:51.328Z"
+    },
+    {
+      "id": "aud_1792342731117",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:58:51.117Z"
+    },
+    {
+      "id": "aud_1792342730907",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:58:50.907Z"
+    },
+    {
+      "id": "aud_1792342730696",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:58:50.696Z"
+    },
+    {
+      "id": "aud_1792342730486",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:58:50.486Z"
+    },
+    {
+      "id": "aud_1792342730276",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:58:50.276Z"
+    },
+    {
+      "id": "aud_1792342730066",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:58:50.066Z"
+    },
+    {
+      "id": "aud_1792342729856",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:58:49.856Z"
+    },
+    {
+      "id": "aud_1792342729646",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:58:49.646Z"
+    },
+    {
+      "id": "aud_1792342729437",
+      "actorUserId": "usr_supplier_1",
+      "action": "CAMPAIGN_PROPOSED",
+      "entityType": "CAMPAIGN",
+      "entityId": "cmp_1792342729436_2l26",
+      "timestamp": "2026-10-18T16:58:49.437Z"
+    },
+    {
+      "id": "aud_1792342729428",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:58:49.428Z"
+    },
+    {
+      "id": "aud_1792342729219",
+      "actorUserId": "anonymous",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "nonexistent.user.404@bulkbuy.in",
+      "timestamp": "2026-10-18T16:58:49.219Z"
+    },
+    {
+      "id": "aud_1792342729217",
+      "actorUserId": "usr_admin_1",
+      "action": "USER_LOGGED_IN",
+      "entityType": "AUTH",
+      "entityId": "usr_admin_1",
+      "timestamp": "2026-10-18T16:58:49.217Z"
+    },
+    {
+      "id": "aud_1792342729007",
+      "actorUserId": "usr_1792342729006_h1ipj",
+      "action": "USER_REGISTERED",
+      "entityType": "USER",
+      "entityId": "usr_1792342729006_h1ipj",
+      "metadata": {
+        "role": "CUSTOMER",
+        "email": "test.cust.1792342728793@example.com"
+      },
+      "timestamp": "2026-10-18T16:58:49.007Z"
+    },
+    {
+      "id": "aud_1792342216842",
+      "actorUserId": "usr_customer_1",
+      "action": "ORDER_CONFIRMED",
+      "entityType": "ORDER",
+      "entityId": "ord_1792342216835_pxd1g",
+      "metadata": {
+        "campaignId": "cmp_1",
+        "quantity": 2,
+        "totalAmount": 1640,
+        "paymentId": "pay_1792342216842_besx"
+      },
+      "timestamp": "2026-10-18T16:50:16.842Z"
+    },
+    {
+      "id": "aud_1792342216496",
+      "actorUserId": "usr_customer_1",
+      "action": "USER_LOGGED_OUT",
+      "entityType": "AUTH",
+      "entityId": "usr_customer_1",
+      "timestamp": "2026-10-18T16:50:16.496Z"
+    },
+    {
+      "id": "aud_1792342216494",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:50:16.494Z"
+    },
+    {
+      "id": "aud_1792342216282",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:50:16.282Z"
+    },
+    {
+      "id": "aud_1792342216073",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:50:16.073Z"
+    },
+    {
+      "id": "aud_1792342215863",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:50:15.863Z"
+    },
+    {
+      "id": "aud_1792342215653",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:50:15.653Z"
+    },
+    {
+      "id": "aud_1792342215442",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:50:15.442Z"
+    },
+    {
+      "id": "aud_1792342215229",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:50:15.229Z"
+    },
+    {
+      "id": "aud_1792342215021",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:50:15.021Z"
+    },
+    {
+      "id": "aud_1792342214811",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:50:14.811Z"
+    },
+    {
+      "id": "aud_1792342214601",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:50:14.601Z"
+    },
+    {
+      "id": "aud_1792342214391",
+      "actorUserId": "usr_supplier_1",
+      "action": "CAMPAIGN_PROPOSED",
+      "entityType": "CAMPAIGN",
+      "entityId": "cmp_1792342214391_doyh",
+      "timestamp": "2026-10-18T16:50:14.391Z"
+    },
+    {
+      "id": "aud_1792342214382",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:50:14.382Z"
+    },
+    {
+      "id": "aud_1792342214173",
+      "actorUserId": "anonymous",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "nonexistent.user.404@bulkbuy.in",
+      "timestamp": "2026-10-18T16:50:14.173Z"
+    },
+    {
+      "id": "aud_1792342214171",
+      "actorUserId": "usr_admin_1",
+      "action": "USER_LOGGED_IN",
+      "entityType": "AUTH",
+      "entityId": "usr_admin_1",
+      "timestamp": "2026-10-18T16:50:14.171Z"
+    },
+    {
+      "id": "aud_1792342213960",
+      "actorUserId": "usr_1792342213959_2t3x4",
+      "action": "USER_REGISTERED",
+      "entityType": "USER",
+      "entityId": "usr_1792342213959_2t3x4",
+      "metadata": {
+        "role": "CUSTOMER",
+        "email": "test.cust.1792342213747@example.com"
+      },
+      "timestamp": "2026-10-18T16:50:13.960Z"
+    },
+    {
+      "id": "aud_1792342189673",
+      "actorUserId": "usr_customer_1",
+      "action": "ORDER_CONFIRMED",
+      "entityType": "ORDER",
+      "entityId": "ord_1792342189665_9vgqd",
+      "metadata": {
+        "campaignId": "cmp_1",
+        "quantity": 2,
+        "totalAmount": 1640,
+        "paymentId": "pay_1792342189672_iicz"
+      },
+      "timestamp": "2026-10-18T16:49:49.673Z"
+    },
+    {
+      "id": "aud_1792342189275",
+      "actorUserId": "usr_customer_1",
+      "action": "USER_LOGGED_OUT",
+      "entityType": "AUTH",
+      "entityId": "usr_customer_1",
+      "timestamp": "2026-10-18T16:49:49.275Z"
+    },
+    {
+      "id": "aud_1792342189273",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:49:49.273Z"
+    },
+    {
+      "id": "aud_1792342189048",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:49:49.048Z"
+    },
+    {
+      "id": "aud_1792342188823",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:49:48.823Z"
+    },
+    {
+      "id": "aud_1792342188613",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:49:48.613Z"
+    },
+    {
+      "id": "aud_1792342188403",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:49:48.403Z"
+    },
+    {
+      "id": "aud_1792342188149",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:49:48.149Z"
+    },
+    {
+      "id": "aud_1792342187927",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:49:47.927Z"
+    },
+    {
+      "id": "aud_1792342187718",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:49:47.718Z"
+    },
+    {
+      "id": "aud_1792342187510",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:49:47.510Z"
+    },
+    {
+      "id": "aud_1792342187299",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:49:47.299Z"
+    },
+    {
+      "id": "aud_1792342187086",
+      "actorUserId": "usr_supplier_1",
+      "action": "CAMPAIGN_PROPOSED",
+      "entityType": "CAMPAIGN",
+      "entityId": "cmp_1792342187086_m5bp",
+      "timestamp": "2026-10-18T16:49:47.086Z"
+    },
+    {
+      "id": "aud_1792342187076",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:49:47.076Z"
+    },
+    {
+      "id": "aud_1792342186869",
+      "actorUserId": "anonymous",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "nonexistent.user.404@bulkbuy.in",
+      "timestamp": "2026-10-18T16:49:46.869Z"
+    },
+    {
+      "id": "aud_1792342186867",
+      "actorUserId": "usr_admin_1",
+      "action": "USER_LOGGED_IN",
+      "entityType": "AUTH",
+      "entityId": "usr_admin_1",
+      "timestamp": "2026-10-18T16:49:46.867Z"
+    },
+    {
+      "id": "aud_1792342186656",
+      "actorUserId": "usr_1792342186656_jc5qc",
+      "action": "USER_REGISTERED",
+      "entityType": "USER",
+      "entityId": "usr_1792342186656_jc5qc",
+      "metadata": {
+        "role": "CUSTOMER",
+        "email": "test.cust.1792342186443@example.com"
+      },
+      "timestamp": "2026-10-18T16:49:46.656Z"
+    },
+    {
+      "id": "aud_1792342141047",
+      "actorUserId": "usr_customer_1",
+      "action": "USER_LOGGED_OUT",
+      "entityType": "AUTH",
+      "entityId": "usr_customer_1",
+      "timestamp": "2026-10-18T16:49:01.047Z"
+    },
+    {
+      "id": "aud_1792342141045",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:49:01.045Z"
+    },
+    {
+      "id": "aud_1792342140837",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:49:00.837Z"
+    },
+    {
+      "id": "aud_1792342140629",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:49:00.629Z"
+    },
+    {
+      "id": "aud_1792342140421",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:49:00.421Z"
+    },
+    {
+      "id": "aud_1792342140211",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:49:00.211Z"
+    },
+    {
+      "id": "aud_1792342140001",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:49:00.001Z"
+    },
+    {
+      "id": "aud_1792342139793",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:48:59.793Z"
+    },
+    {
+      "id": "aud_1792342139583",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:48:59.583Z"
+    },
+    {
+      "id": "aud_1792342139375",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:48:59.375Z"
+    },
+    {
+      "id": "aud_1792342139166",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:48:59.166Z"
+    },
+    {
+      "id": "aud_1792342138956",
+      "actorUserId": "usr_supplier_1",
+      "action": "CAMPAIGN_PROPOSED",
+      "entityType": "CAMPAIGN",
+      "entityId": "cmp_1792342138955_3cn6",
+      "timestamp": "2026-10-18T16:48:58.956Z"
+    },
+    {
+      "id": "aud_1792342138945",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:48:58.945Z"
+    },
+    {
+      "id": "aud_1792342138735",
+      "actorUserId": "anonymous",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "nonexistent.user.404@bulkbuy.in",
+      "timestamp": "2026-10-18T16:48:58.735Z"
+    },
+    {
+      "id": "aud_1792342138733",
+      "actorUserId": "usr_admin_1",
+      "action": "USER_LOGGED_IN",
+      "entityType": "AUTH",
+      "entityId": "usr_admin_1",
+      "timestamp": "2026-10-18T16:48:58.733Z"
+    },
+    {
+      "id": "aud_1792342138522",
+      "actorUserId": "usr_1792342138521_mkn6o",
+      "action": "USER_REGISTERED",
+      "entityType": "USER",
+      "entityId": "usr_1792342138521_mkn6o",
+      "metadata": {
+        "role": "CUSTOMER",
+        "email": "test.cust.1792342138309@example.com"
+      },
+      "timestamp": "2026-10-18T16:48:58.522Z"
+    },
+    {
+      "id": "aud_1792340779059",
+      "actorUserId": "usr_customer_1",
+      "action": "USER_LOGGED_OUT",
+      "entityType": "AUTH",
+      "entityId": "usr_customer_1",
+      "timestamp": "2026-10-18T16:26:19.059Z"
+    },
+    {
+      "id": "aud_1792340779058",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:26:19.058Z"
+    },
+    {
+      "id": "aud_1792340778845",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:26:18.845Z"
+    },
+    {
+      "id": "aud_1792340778631",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:26:18.631Z"
+    },
+    {
+      "id": "aud_1792340778415",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:26:18.415Z"
+    },
+    {
+      "id": "aud_1792340778201",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:26:18.201Z"
+    },
+    {
+      "id": "aud_1792340777989",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:26:17.989Z"
+    },
+    {
+      "id": "aud_1792340777776",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:26:17.776Z"
+    },
+    {
+      "id": "aud_1792340777564",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:26:17.564Z"
+    },
+    {
+      "id": "aud_1792340777352",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:26:17.352Z"
+    },
+    {
+      "id": "aud_1792340777140",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:26:17.140Z"
+    },
+    {
+      "id": "aud_1792340776927",
+      "actorUserId": "usr_supplier_1",
+      "action": "CAMPAIGN_PROPOSED",
+      "entityType": "CAMPAIGN",
+      "entityId": "cmp_1792340776927_851a",
+      "timestamp": "2026-10-18T16:26:16.927Z"
+    },
+    {
+      "id": "aud_1792340776917",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:26:16.917Z"
+    },
+    {
+      "id": "aud_1792340776706",
+      "actorUserId": "anonymous",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "nonexistent.user.404@bulkbuy.in",
+      "timestamp": "2026-10-18T16:26:16.706Z"
+    },
+    {
+      "id": "aud_1792340776704",
+      "actorUserId": "usr_admin_1",
+      "action": "USER_LOGGED_IN",
+      "entityType": "AUTH",
+      "entityId": "usr_admin_1",
+      "timestamp": "2026-10-18T16:26:16.704Z"
+    },
+    {
+      "id": "aud_1792340776490",
+      "actorUserId": "usr_1792340776490_z35yq",
+      "action": "USER_REGISTERED",
+      "entityType": "USER",
+      "entityId": "usr_1792340776490_z35yq",
+      "metadata": {
+        "role": "CUSTOMER",
+        "email": "test.cust.1792340776273@example.com"
+      },
+      "timestamp": "2026-10-18T16:26:16.490Z"
+    },
+    {
+      "id": "aud_1792340756635",
+      "actorUserId": "usr_customer_1",
+      "action": "USER_LOGGED_OUT",
+      "entityType": "AUTH",
+      "entityId": "usr_customer_1",
+      "timestamp": "2026-10-18T16:25:56.635Z"
+    },
+    {
+      "id": "aud_1792340756634",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:25:56.634Z"
+    },
+    {
+      "id": "aud_1792340756390",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:25:56.390Z"
+    },
+    {
+      "id": "aud_1792340756180",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:25:56.180Z"
+    },
+    {
+      "id": "aud_1792340755970",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:25:55.970Z"
+    },
+    {
+      "id": "aud_1792340755759",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:25:55.759Z"
+    },
+    {
+      "id": "aud_1792340755550",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:25:55.550Z"
+    },
+    {
+      "id": "aud_1792340755340",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:25:55.340Z"
+    },
+    {
+      "id": "aud_1792340755131",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:25:55.131Z"
+    },
+    {
+      "id": "aud_1792340754923",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:25:54.923Z"
+    },
+    {
+      "id": "aud_1792340754715",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:25:54.715Z"
+    },
+    {
+      "id": "aud_1792340754504",
+      "actorUserId": "usr_supplier_1",
+      "action": "CAMPAIGN_PROPOSED",
+      "entityType": "CAMPAIGN",
+      "entityId": "cmp_1792340754504_mma2",
+      "timestamp": "2026-10-18T16:25:54.504Z"
+    },
+    {
+      "id": "aud_1792340754495",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:25:54.495Z"
+    },
+    {
+      "id": "aud_1792340754286",
+      "actorUserId": "anonymous",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "nonexistent.user.404@bulkbuy.in",
+      "timestamp": "2026-10-18T16:25:54.286Z"
+    },
+    {
+      "id": "aud_1792340754285",
+      "actorUserId": "usr_admin_1",
+      "action": "USER_LOGGED_IN",
+      "entityType": "AUTH",
+      "entityId": "usr_admin_1",
+      "timestamp": "2026-10-18T16:25:54.285Z"
+    },
+    {
+      "id": "aud_1792340754072",
+      "actorUserId": "usr_1792340754071_k0lql",
+      "action": "USER_REGISTERED",
+      "entityType": "USER",
+      "entityId": "usr_1792340754071_k0lql",
+      "metadata": {
+        "role": "CUSTOMER",
+        "email": "test.cust.1792340753856@example.com"
+      },
+      "timestamp": "2026-10-18T16:25:54.072Z"
+    },
+    {
+      "id": "aud_1792340603326",
+      "actorUserId": "usr_customer_1",
+      "action": "USER_LOGGED_OUT",
+      "entityType": "AUTH",
+      "entityId": "usr_customer_1",
+      "timestamp": "2026-10-18T16:23:23.326Z"
+    },
+    {
+      "id": "aud_1792340603324",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:23:23.324Z"
+    },
+    {
+      "id": "aud_1792340603114",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:23:23.114Z"
+    },
+    {
+      "id": "aud_1792340602904",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:23:22.904Z"
+    },
+    {
+      "id": "aud_1792340602693",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:23:22.693Z"
+    },
+    {
+      "id": "aud_1792340602481",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:23:22.481Z"
+    },
+    {
+      "id": "aud_1792340602271",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:23:22.271Z"
+    },
+    {
+      "id": "aud_1792340602060",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:23:22.060Z"
+    },
+    {
+      "id": "aud_1792340601848",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:23:21.848Z"
+    },
+    {
+      "id": "aud_1792340601638",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:23:21.638Z"
+    },
+    {
+      "id": "aud_1792340601427",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:23:21.427Z"
+    },
+    {
+      "id": "aud_1792340601215",
+      "actorUserId": "usr_supplier_1",
+      "action": "CAMPAIGN_PROPOSED",
+      "entityType": "CAMPAIGN",
+      "entityId": "cmp_1792340601215_5k27",
+      "timestamp": "2026-10-18T16:23:21.215Z"
+    },
+    {
+      "id": "aud_1792340601206",
+      "actorUserId": "usr_admin_1",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "admin@bulkbuy.in",
+      "timestamp": "2026-10-18T16:23:21.206Z"
+    },
+    {
+      "id": "aud_1792340600997",
+      "actorUserId": "anonymous",
+      "action": "LOGIN_FAILED",
+      "entityType": "AUTH",
+      "entityId": "nonexistent.user.404@bulkbuy.in",
+      "timestamp": "2026-10-18T16:23:20.997Z"
+    },
+    {
+      "id": "aud_1792340600996",
+      "actorUserId": "usr_admin_1",
+      "action": "USER_LOGGED_IN",
+      "entityType": "AUTH",
+      "entityId": "usr_admin_1",
+      "timestamp": "2026-10-18T16:23:20.996Z"
+    },
+    {
+      "id": "aud_1792340600784",
+      "actorUserId": "usr_1792340600783_s4o8d",
+      "action": "USER_REGISTERED",
+      "entityType": "USER",
+      "entityId": "usr_1792340600783_s4o8d",
+      "metadata": {
+        "role": "CUSTOMER",
+        "email": "test.cust.1792340600570@example.com"
+      },
+      "timestamp": "2026-10-18T16:23:20.784Z"
+    },
+    {
+      "id": "aud_1",
+      "actorUserId": "usr_admin_1",
+      "action": "VERIFY_SUPPLIER",
+      "entityType": "SUPPLIER",
+      "entityId": "sup_1",
+      "metadata": {
+        "approvedBy": "admin@bulkbuy.in",
+        "note": "FSSAI and GSTIN validated against government registry"
+      },
+      "timestamp": "2026-02-05T14:30:00Z"
+    },
+    {
+      "id": "aud_2",
+      "actorUserId": "usr_admin_1",
+      "action": "CONFIRM_CAMPAIGN",
+      "entityType": "CAMPAIGN",
+      "entityId": "cmp_4",
+      "metadata": {
+        "reason": "Target quantity 100 units achieved before deadline"
+      },
+      "timestamp": "2026-10-18T12:00:00Z"
+    }
+  ]
+}
