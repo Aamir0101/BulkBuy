@@ -79,7 +79,8 @@ export const AdminDashboardPage: React.FC = () => {
 
   const handleExportCsv = () => {
     const token = api.getToken();
-    window.open(`/api/v1/admin/reports/csv?token=${token}`, '_blank');
+    const baseUrl = import.meta.env.VITE_API_BASE_URL || '/api/v1';
+    window.open(`${baseUrl}/admin/reports/csv?token=${token}`, '_blank');
   };
 
   return (
