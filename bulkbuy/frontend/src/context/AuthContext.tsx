@@ -46,21 +46,12 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   };
 
   useEffect(() => {
-    const hasExplicitlyLoggedOut = localStorage.getItem('bulkbuy_logged_out');
-    // If no token exists on startup and user did not explicitly log out, explore demo customer
-    if (!api.getToken() && !hasExplicitlyLoggedOut) {
-      login('priya.sharma@example.com', 'customer123').catch(() => {
-        setIsLoading(false);
-      });
-    } else {
-      fetchProfile();
-    }
+    fetchProfile();
   }, []);
 
   const login = async (email: string, password: string) => {
     setIsLoading(true);
     try {
-      localStorage.removeItem('bulkbuy_logged_out');
       const res = await api.login({ email, password });
       api.setToken(res.token);
       setUser(res.user);
@@ -96,7 +87,6 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
   const logout = async () => {
     try {
-      localStorage.setItem('bulkbuy_logged_out', 'true');
       await api.logout();
     } finally {
       setUser(null);
@@ -110,7 +100,6 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   };
 
   const quickSwitchDemoAccount = async (targetRole: UserRole) => {
-    localStorage.removeItem('bulkbuy_logged_out');
     if (targetRole === 'ADMIN') {
       await login('admin@bulkbuy.in', 'admin123');
     } else if (targetRole === 'SUPPLIER') {
