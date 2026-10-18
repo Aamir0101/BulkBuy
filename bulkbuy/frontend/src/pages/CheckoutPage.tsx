@@ -4,6 +4,7 @@ import { useAuth } from '../context/AuthContext.js';
 import { useLocation } from '../context/LocationContext.js';
 import { api } from '../services/api.js';
 import { PaymentModal } from '../components/PaymentModal.js';
+import { getProductImageUrl, FALLBACK_PRODUCT_IMAGE } from '../utils/imageHelper.js';
 import {
   ShieldCheck,
   Truck,
@@ -399,9 +400,12 @@ export const CheckoutPage: React.FC<CheckoutPageProps> = ({
             {/* Product Card Row */}
             <div className="flex items-start gap-3.5">
               <img
-                src={product?.imageUrl}
-                alt={product?.title}
+                src={getProductImageUrl(product?.imageUrl)}
+                alt={product?.title || 'Product'}
                 referrerPolicy="no-referrer"
+                onError={(e) => {
+                  (e.currentTarget as HTMLImageElement).src = FALLBACK_PRODUCT_IMAGE;
+                }}
                 className="w-18 h-18 object-cover rounded-2xl border border-slate-200 shrink-0 shadow-2xs"
               />
               <div className="text-xs space-y-1">

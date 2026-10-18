@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Campaign } from '../types/index.js';
 import { Users, Clock, ShieldCheck, ArrowRight, Share2, Check, Sparkles, MapPin } from 'lucide-react';
+import { getProductImageUrl, FALLBACK_PRODUCT_IMAGE } from '../utils/imageHelper.js';
 
 interface CampaignCardProps {
   campaign: Campaign;
@@ -47,19 +48,16 @@ export const CampaignCard: React.FC<CampaignCardProps> = ({ campaign, onSelect }
     >
       {/* Product Image Stage */}
       <div className="relative aspect-4/3 w-full bg-brand-warm-bg overflow-hidden">
-        {product?.imageUrl ? (
-          <img
-            src={product.imageUrl}
-            alt={product.title}
-            loading="lazy"
-            referrerPolicy="no-referrer"
-            className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
-          />
-        ) : (
-          <div className="w-full h-full flex items-center justify-center text-slate-400 text-xs">
-            No image available
-          </div>
-        )}
+        <img
+          src={getProductImageUrl(product?.imageUrl)}
+          alt={product?.title || 'Product'}
+          loading="lazy"
+          referrerPolicy="no-referrer"
+          onError={(e) => {
+            (e.currentTarget as HTMLImageElement).src = FALLBACK_PRODUCT_IMAGE;
+          }}
+          className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
+        />
 
         {/* Top Badges */}
         <div className="absolute top-3 left-3 flex flex-col gap-1 items-start z-10">

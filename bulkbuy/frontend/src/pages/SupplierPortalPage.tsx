@@ -3,6 +3,7 @@ import { useAuth } from '../context/AuthContext.js';
 import { api } from '../services/api.js';
 import { Supplier, Product, Campaign } from '../types/index.js';
 import { Store, ShieldCheck, Plus, PackageCheck, AlertCircle, FileText, CheckCircle2, Loader2, Truck, Edit3, Trash2, X } from 'lucide-react';
+import { getProductImageUrl, FALLBACK_PRODUCT_IMAGE } from '../utils/imageHelper.js';
 
 export const SupplierPortalPage: React.FC = () => {
   const { user, refreshUser } = useAuth();
@@ -456,7 +457,15 @@ export const SupplierPortalPage: React.FC = () => {
                   </form>
                 ) : (
                   <div className="bg-white rounded-xl border border-[#E7E5E0] p-4 flex gap-4 text-xs">
-                    <img src={p.imageUrl} alt={p.title} referrerPolicy="no-referrer" className="w-20 h-20 object-cover rounded-lg border border-slate-200 shrink-0" />
+                    <img
+                      src={getProductImageUrl(p.imageUrl)}
+                      alt={p.title}
+                      referrerPolicy="no-referrer"
+                      onError={(e) => {
+                        (e.currentTarget as HTMLImageElement).src = FALLBACK_PRODUCT_IMAGE;
+                      }}
+                      className="w-20 h-20 object-cover rounded-lg border border-slate-200 shrink-0"
+                    />
                     <div className="flex-1 space-y-1">
                       <span className="text-[10px] text-emerald-800 font-medium uppercase tracking-wider">{p.category}</span>
                       <h4 className="font-semibold text-slate-900 text-sm line-clamp-1">{p.title}</h4>

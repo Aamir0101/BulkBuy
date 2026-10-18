@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { api } from '../services/api.js';
 import { Campaign } from '../types/index.js';
 import { TierProgress } from '../components/TierProgress.js';
+import { getProductImageUrl, FALLBACK_PRODUCT_IMAGE } from '../utils/imageHelper.js';
 import { useLocation } from '../context/LocationContext.js';
 import {
   ShieldCheck,
@@ -134,9 +135,12 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({
           {/* Main Hero Image */}
           <div className="rounded-3xl border border-brand-warm-border overflow-hidden aspect-4/3 bg-brand-warm-bg relative shadow-sm group">
             <img
-              src={product?.imageUrl}
-              alt={product?.title}
+              src={getProductImageUrl(product?.imageUrl)}
+              alt={product?.title || 'Product'}
               referrerPolicy="no-referrer"
+              onError={(e) => {
+                (e.currentTarget as HTMLImageElement).src = FALLBACK_PRODUCT_IMAGE;
+              }}
               className="w-full h-full object-cover object-center cursor-zoom-in group-hover:scale-102 transition-transform duration-500"
               onClick={() => setShowImageZoom(!showImageZoom)}
             />
